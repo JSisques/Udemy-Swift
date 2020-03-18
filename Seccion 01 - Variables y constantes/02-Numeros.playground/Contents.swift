@@ -32,3 +32,14 @@ var octalNumber = 0o21 // 17 en octal
 
 //Hexadecimal
 var hexNumber = 0x11 // 17 en hexadecimal
+
+//CASTING
+let twoThousand: UInt16 = 2_000
+let one: UInt8 = 1
+let twoThousandAndOne = twoThousand + UInt16(one)
+
+let three = Double(3)
+
+//RENOMBRAMIENTO DE CLASES
+typealias AudioSample = UInt16
+var maxAmplitude = AudioSample.max
